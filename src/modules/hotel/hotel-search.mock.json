@@ -1,0 +1,61 @@
+{
+  "hotels": [
+    {
+      "name": "Hotel Emperador",
+      "services": [
+        "bar",
+        "swimming-pool",
+        "checkin-24",
+        "coffee-shop",
+        "gym",
+        "cleaning"
+      ],
+      "price": {
+        "currency": "ARS",
+        "amount": 1596
+      },
+      "thumbs": [
+
+      ],
+      "stars": 3
+    },
+    {
+      "name": "Petit Palace San Bernando",
+      "services": [
+        "swimming-pool",
+        "business-center",
+        "checkin-24",
+        "cleaning",
+        "internet",
+        "tv"
+      ],
+      "price": {
+        "currency": "ARS",
+        "amount": 2145
+      },
+      "thumbs": [
+
+      ],
+      "stars": 4
+    },
+    {
+      "name": "Hotel Nuevo Boston",
+      "services": [
+        "bar",
+        "swimming-pool",
+        "business-center",
+        "checkin-24",
+        "coffee-shop",
+        "gym"
+      ],
+      "price": {
+        "currency": "ARS",
+        "amount": 861
+      },
+      "thumbs": [
+
+      ],
+      "stars": 2
+    }
+  ]
+}

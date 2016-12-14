@@ -1,0 +1,35 @@
+{
+  "name": "amiranda-almundo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "standard && mocha --recursive --reporter spec",
+    "test-watch": "mocha --watch --recursive --reporter spec"
+  },
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-validator": "^3.0.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "it",
+      "beforeEach"
+    ]
+  },
+  "engines": {
+    "node": "6.*"
+  }
+}
